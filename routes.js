@@ -9,4 +9,5 @@ module.exports = function (app) {
   app.route("/tambah").post(jsonku.tambahMahasiswa);
   app.route("/ubah").put(jsonku.ubahMahasiswa);
   app.route("/hapus").delete(jsonku.hapusMahasiswa);
+  app.route("/tampilmatakuliah").get(jsonku.tampilgroupmatakuliah);
 };
